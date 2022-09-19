@@ -1,0 +1,263 @@
+     /*............... header start ..................*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(109, 236, 236);
+    position: relative;
+    position: fixed;
+}
+header .header-img img{
+    height: 40px;
+    margin: 2px 1px -8px 140px;
+}
+header .header-img span{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .nav ul{
+   list-style: none;
+   float: left;
+     
+}
+header .nav ul li{
+    float: left;
+    padding: 6px 9px 16px 0px;
+    color: rgb(240, 236, 41);
+    background-color: cornflowerblue;
+}
+header .nav ul a{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 14px; 
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 50px;
+}
+header .nav ul li:hover{
+    background-color: brown;
+    color: aqua;
+}
+header .nav ul li a:hover{
+    background-color: brown;
+    color: aqua;
+}
+    /* ,,,,,,,,,,,,,,,,,,,,end......................... */
+/* -------------------section start -------------------- */
+section{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-color: #ff3ee1;
+}
+section .width-50{
+    width: 50%;
+    
+}
+.width-50 span{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.width-50 h1{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0 30px 0;
+}
+.width-50 p{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 17px;
+    
+}
+.width-50 button{
+    background-color: #8393ff;
+    color: #f2f4ff;
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+section .left-1{
+    margin: 135px 5px 230px 230px;
+}
+/* --------------section end--------------- */
+/* --------------section start 2--------------- */
+section.section-1{ 
+    background-color: #733cec;
+}
+
+section .left-2{
+    margin-left: 238px;
+}
+
+section .left-2{
+    margin-left: 135px 20px 0 0;
+}
+
+/* --------------section end 2--------------- */
+
+/* --------------section start 3--------------- */
+
+.section-3{
+    width: 100%;
+    height: 315px;
+    background-color: aqua;
+   
+    
+   
+}
+.section-3 .body{
+    display: inline-block;
+    margin: 128px 290px;
+    text-align: center;
+}
+
+/* --------------section end 3--------------- */
+
+/* --------------card start 1--------------- */
+
+.card{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    background-color: #733cec;
+}
+.card img{
+    height: 250px;
+    width: 300px;
+    margin: 10px 5px 5px 79px;
+}
+
+.card h1,p{
+    margin: 10px 5px 5px 79px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card h1{
+    font-size: 20px;
+}
+.card>.card-1:hover{
+    transition: 1s;
+    transform: scale(110%);
+}
+
+.card>.card-2:hover{
+    transition: 1s;
+    transform: scale(110%);
+}
+.card>.card-3:hover{
+    transition: 1s;
+    transform: scale(110%);
+}
+
+
+
+
+/* --------------card end 1--------------- */
+/* --------------projet start 1--------------- */
+
+.project{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 103, 43);
+    margin: auto;
+}
+.project .project-1,.project-2,.project-3{
+    margin: auto;
+}
+.project h1{
+    text-align: center;
+}
+
+
+
+
+/* --------------projet start end--------------- */
+/* --------------latest projet start--------------- */
+
+.work .work-head{
+    text-align: center;
+    justify-content: center;
+    background-color: #733cec;
+    padding: 10px auto 10px auto;
+
+
+}
+.work .first-photo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.work .first-photo:hover{
+    background-color: rgb(189, 253, 176);
+}
+
+.work .first-photo .p-1 img:hover{
+   opacity: 30%;
+}
+.work .first-photo .p-1 img{
+    background: linear-gradient(50deg , white 50% ,black 30%);
+    height: auto;
+    width: auto;
+}
+
+
+
+
+
+
+/* --------------latest projet end--------------- */
+/* --------------ABOUT ME START--------------- */
+
+.footer{
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(58, 58, 58);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+.height{
+    width: 33.33333333333333%;
+    margin: auto;
+}
+.height .about{
+    margin: 63px auto auto auto;
+}
+.follow i{
+    justify-content: space-between;
+    text-decoration: none;
+}
+.news input,button{
+    padding: 6px;
+    background-color: rgb(255, 196, 123);
+}
+
+
+
+
+
+
+
+
+
+/* --------------ABOUT ME END--------------- */
+
+
+
+
+
+
+/* --------------https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqazVkR0NycGJNOUxEOV9vazVNMmloeldXeFl2UXxBQ3Jtc0tsT0xwVG8yRFMzbVpkMmRRc0pTUWFteUZDRGZsS0lZVnl2cWdMd3BYdVhPS0NGTWFSS3g3MnNDRnJBYmJleE5FV3h4VTlyekh6Qy1vVkJUS19TX2ktWnRUUGRJcVI0QmhoNVd4bDBmaUJlaGF3bzdDbw&q=https%3A%2F%2Fhablu-programmer.github.io%2Fproject3%2F&v=GU4McR0BJjc--------------- */
+
+
